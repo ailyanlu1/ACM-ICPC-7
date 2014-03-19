@@ -10,6 +10,8 @@
 # **Dynamic Programming**
 * **Matrix Chain Multiplication**
     * [UVA 10003 - Cutting Sticks](http://uva.onlinejudge.org/external/100/10003.html)
+* **0-1 Knapsack Problem**
+    * [UVA 562 - Dividing Coins](http://uva.onlinejudge.org/external/5/562.html)
 
 # **TREES**
 * **Common Parent**
