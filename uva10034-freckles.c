@@ -1,3 +1,10 @@
+/*
+* UVA-10034: Freckles
+* ========================
+* Author: Felipe Blassioli
+* Date: 20/04/2014
+* Description: Graphs, MST, prim
+*/
 #include <stdio.h>
 #include <math.h>
 #define MAX 105
