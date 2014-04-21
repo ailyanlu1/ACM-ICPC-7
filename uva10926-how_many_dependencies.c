@@ -16,14 +16,14 @@ int dfs(int u){
     int i,c;
     c = 0;
     v[u]=1;
-    /*printf("  visited %d\n", u);*/
+    printf("  visited %d\n", u);
     for(i=1;i<=N;i++)
         if(a[u][i] && !v[i])
         {
             c++;
             c += dfs(i);
         }
-    /*printf("vertex %d has %d children\n", u, c);*/
+    printf("vertex %d has %d children\n", u, c);
     return c;
 }
 
@@ -41,13 +41,13 @@ int main(){
 		}
         max = -1;
         for(i=1;i<=N;i++){
-            /*printf("Vertex %d\n",i);*/
+            printf("Vertex %d\n",i);
             for(j=0;j<=N;j++) v[j]=0;
             t = dfs(i);
             if(t > max){
                 max = t; max_i = i;
             }
-            /*printf("---\n");*/
+            printf("---\n");
         }
         printf("%d\n",max_i);
 	}
